@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>snapcraft-downloader</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <h1>.snap downloader</h1>
+      <img src="./src/snapcraft.png" alt="" />
+      <a href=""></a>
+    </div>
+    <div class="form">
+      <input type="text" name="" placeholder="pakge-name" id="pakge-name" />
+      <button id="get-pakge">
+        <img src="./src/file_download.svg" alt="" />
+      </button>
+    </div>
+    <div id="output" class="output">
+      <div id="list-architecture" onke class="list-architecture">
+
+      </div>
+      <div class="loading">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
